@@ -30,6 +30,7 @@ body {
     color: var(--primary-text-color);
 
     font-family: "Roboto", sans-serif;
+    letter-spacing: 0.03em;
 }
 
 .list {
@@ -39,30 +40,43 @@ body {
 /* Логотип */
 .logo {
     color: var(--accent-color);
+
     font-family: "Raleway", sans-serif;
-
-font-size: 26px;
-line-height: 1.19em;
-/* identical to box height */
-
-letter-spacing: 0.03em;
-}
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    }
 
 .logo .logo-studio {
     color: #000000;
 }
 
 /* Навигация по сайту */
+.site-nav {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,14;
+    letter-spacing: 0.02em;
+}
+
 .site-nav .link{
     color: var(--title-text-color)
 }
 
 .site-nav .link:hover, .site-nav .link:focus {
     color: var(--accent-color);
-}
+}   
 
 .site-nav .link.current {
     color: var(--accent-color);
+}
+
+.auth-nav {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,14;
+    letter-spacing: 0.02em;
 }
 
 .auth-nav .link {
@@ -70,7 +84,7 @@ letter-spacing: 0.03em;
 }
 
 .auth-nav .link:hover, .auth-nav .link:focus  {
-    color: var(--accent-color);
+    color: var(--accent-color); 
 }
 
 /* Баннер (блог-герой) */
@@ -80,6 +94,13 @@ letter-spacing: 0.03em;
 
 .hero-title {
     color: var(--primary-white-color);
+
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1,36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
 
 /* Секция */
@@ -89,11 +110,27 @@ letter-spacing: 0.03em;
 
 .section-title {
     color: var(--title-text-color);
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
 }
 
 /* Особенности */
 .features-list .title {
     color: var(--title-text-color);
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+.features-list .text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
 }
 
 /* Чем мы занимаемся */
@@ -102,8 +139,21 @@ letter-spacing: 0.03em;
 .our-team {
     background-color: var(--secondary-bg-color);
 }
+
+.our-team-list {
+    font-size: 16px;
+    line-height: 1.19;
+    /* identical to box height */
+    text-align: center;
+}
+
 .our-team-list .title {
     color: var(--title-text-color);
+    font-weight: 500;
+}
+
+.our-team-list .text {
+    font-weight: 400;
 }
 
 /* Кнопка */
