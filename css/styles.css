@@ -43,7 +43,7 @@ body {
 }
 
 /* Навигация по сайту */
-.site-nav .link{
+.site-nav-link{
     color: var(--title-text-color);
 
     font-weight: 500;
@@ -53,13 +53,13 @@ body {
     text-decoration: none;
 }
 
-.site-nav .link:hover, 
-.site-nav .link:focus, 
-.site-nav .link.current{
+.site-nav-link:hover, 
+.site-nav-link:focus, 
+.site-nav-link.current{
     color: var(--accent-color);
 }   
 
-.auth-nav .link {
+.auth-nav-link {
     color: var(--primary-text-color);
 
     font-weight: 500;
@@ -69,8 +69,8 @@ body {
     text-decoration: none;
 }
 
-.auth-nav .link:hover, 
-.auth-nav .link:focus  {
+.auth-nav-link:hover, 
+.auth-nav-link:focus  {
     color: var(--accent-color); 
 }
 
@@ -91,7 +91,7 @@ body {
 }
 
 /* Кнопка заказа*/
-.order-button {
+.hero-button {
     background-color: var(--accent-color);
     color: var(--secondary-text-color);
     
@@ -106,8 +106,8 @@ body {
     cursor: pointer;
 }
 
-.order-button:hover, 
-.order-button:focus {
+.hero-button:hover, 
+.hero-button:focus {
     background-color: var(--button-hover-color);
 }
 
@@ -122,7 +122,7 @@ body {
 }
 
 /* Особенности */
-.features-list .title {
+.features-title {
     color: var(--title-text-color);
 
     font-weight: 700;
@@ -131,7 +131,7 @@ body {
     text-transform: uppercase;
 }
 
-.features-list .text {
+.features-text {
     font-size: 14px;
     line-height: 1.71;
 }
@@ -143,26 +143,26 @@ body {
     background-color: var(--secondary-bg-color);
 }
 
-.our-team-list .text, 
-.our-team-list .title {
+.our-team-text, 
+.our-team-title {
     font-size: 16px;
     line-height: 1.19;
     /* identical to box height */
     text-align: center;
 }
 
-.our-team-list .title {
+.our-team-title {
     color: var(--title-text-color);
     font-weight: 500;
 }
 
 
 /* Футер */
-footer {
+.footer {
     background-color: var(--accent-bg-color);
 }
 
-footer .logo {
+.footer .logo {
     color: var(--secondary-text-color);
 }
 .address-nav {
@@ -171,7 +171,7 @@ footer .logo {
     line-height: 1.71;
 }
 
-.address-nav .link{
+.address-nav-link{
     color: var(--primary-link-color);
 
     text-decoration: none;
@@ -183,8 +183,8 @@ footer .logo {
     text-decoration: none;
 }
 
-.address-nav .link:hover, 
-.address-nav .link:focus {
+.address-nav-link:hover, 
+.address-nav-link:focus {
     color: var(--accent-color);
     
 }
@@ -207,12 +207,13 @@ footer .logo {
     background-color: var(--accent-color);
     color: var(--secondary-text-color);
 }
+
 /* Наши работы */
-.examples-list .link {
+.examples-link {
     text-decoration: none;
 }
 
-.examples-list .title {
+.examples-title {
     color: var(--title-text-color);
 
     font-size: 18px;
@@ -220,7 +221,7 @@ footer .logo {
     letter-spacing: 0.06em;
 }
 
-.examples-list .text {
+.examples-list-text {
     color: var(--primary-text-color);
 
     font-style: normal;
